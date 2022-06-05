@@ -1,17 +1,17 @@
 import React from "react";
-import "./style.css";
+import Masonary from './components/Masonary';
 
 import React, { Component } from 'react';
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        
-      </div>
-    );
-  }
-}
+export default function App(){
+  return (
+    <>
+  <Masonary/>
+    hello</>
+    
 
-export default App;
+
+
+  )
+}
 
